@@ -13,7 +13,7 @@ export TERM="xterm-256color"
 
 # Oh My Zsh
 export ZSH=$HOME/.oh-my-zsh
-export ZSH_THEME="agnoster"
+export ZSH_THEME="spaceship"
 plugins=(
   git
 )
