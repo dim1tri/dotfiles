@@ -19,7 +19,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'elmcast/elm-vim'
   " Golang
   Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-  Plug 'morhetz/gruvbox'
+  Plug 'sainnhe/gruvbox-material'
   " Haskell
   Plug 'neovimhaskell/haskell-vim'
   " Javascript
@@ -57,7 +57,8 @@ nmap <C-l> <C-w>l
 
 
 " Gruvbox color scheme
-silent! colorscheme gruvbox
+silent! colorscheme gruvbox-material
+let g:gruvbox_material_background = 'medium'
 set background=dark
 
 
